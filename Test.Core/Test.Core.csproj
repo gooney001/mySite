@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>Test.Core</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Test.DataDapper\Test.DataDapper.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Sys\" />
+  </ItemGroup>
+
+</Project>

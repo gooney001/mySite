@@ -1,0 +1,11 @@
+D:\test\mysite\mySite.git\Solution\Test.OpenApi\bin\Debug\netcoreapp1.1\Test.OpenApi.deps.json
+D:\test\mysite\mySite.git\Solution\Test.OpenApi\bin\Debug\netcoreapp1.1\Test.OpenApi.runtimeconfig.json
+D:\test\mysite\mySite.git\Solution\Test.OpenApi\bin\Debug\netcoreapp1.1\Test.OpenApi.runtimeconfig.dev.json
+D:\test\mysite\mySite.git\Solution\Test.OpenApi\bin\Debug\netcoreapp1.1\Test.OpenApi.dll
+D:\test\mysite\mySite.git\Solution\Test.OpenApi\bin\Debug\netcoreapp1.1\Test.OpenApi.pdb
+D:\test\mysite\mySite.git\Solution\Test.OpenApi\obj\Debug\netcoreapp1.1\Test.OpenApi.csprojResolveAssemblyReference.cache
+D:\test\mysite\mySite.git\Solution\Test.OpenApi\obj\Debug\netcoreapp1.1\Test.OpenApi.csproj.CoreCompileInputs.cache
+D:\test\mysite\mySite.git\Solution\Test.OpenApi\obj\Debug\netcoreapp1.1\Test.OpenApi.AssemblyInfoInputs.cache
+D:\test\mysite\mySite.git\Solution\Test.OpenApi\obj\Debug\netcoreapp1.1\Test.OpenApi.AssemblyInfo.cs
+D:\test\mysite\mySite.git\Solution\Test.OpenApi\obj\Debug\netcoreapp1.1\Test.OpenApi.dll
+D:\test\mysite\mySite.git\Solution\Test.OpenApi\obj\Debug\netcoreapp1.1\Test.OpenApi.pdb

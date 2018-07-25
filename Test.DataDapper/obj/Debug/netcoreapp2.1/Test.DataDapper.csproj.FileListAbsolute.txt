@@ -1,0 +1,9 @@
+D:\test\mysite\mySite.git\Solution\Test.DataDapper\bin\Debug\netcoreapp2.1\Test.DataDapper.deps.json
+D:\test\mysite\mySite.git\Solution\Test.DataDapper\bin\Debug\netcoreapp2.1\Test.DataDapper.dll
+D:\test\mysite\mySite.git\Solution\Test.DataDapper\obj\Debug\netcoreapp2.1\Test.DataDapper.csproj.CoreCompileInputs.cache
+D:\test\mysite\mySite.git\Solution\Test.DataDapper\obj\Debug\netcoreapp2.1\Test.DataDapper.AssemblyInfoInputs.cache
+D:\test\mysite\mySite.git\Solution\Test.DataDapper\obj\Debug\netcoreapp2.1\Test.DataDapper.AssemblyInfo.cs
+D:\test\mysite\mySite.git\Solution\Test.DataDapper\obj\Debug\netcoreapp2.1\Test.DataDapper.csprojResolveAssemblyReference.cache
+D:\test\mysite\mySite.git\Solution\Test.DataDapper\bin\Debug\netcoreapp2.1\Test.DataDapper.pdb
+D:\test\mysite\mySite.git\Solution\Test.DataDapper\obj\Debug\netcoreapp2.1\Test.DataDapper.dll
+D:\test\mysite\mySite.git\Solution\Test.DataDapper\obj\Debug\netcoreapp2.1\Test.DataDapper.pdb
