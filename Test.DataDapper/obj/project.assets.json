@@ -2011,11 +2011,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\test\\mysite\\mySite.git\\Solution\\Test.DataDapper\\Test.DataDapper.csproj",
+      "projectUniqueName": "D:\\test\\net\\mySite\\Test.DataDapper\\Test.DataDapper.csproj",
       "projectName": "Test.DataDapper",
-      "projectPath": "D:\\test\\mysite\\mySite.git\\Solution\\Test.DataDapper\\Test.DataDapper.csproj",
+      "projectPath": "D:\\test\\net\\mySite\\Test.DataDapper\\Test.DataDapper.csproj",
       "packagesPath": "C:\\Users\\test\\.nuget\\packages\\",
-      "outputPath": "D:\\test\\mysite\\mySite.git\\Solution\\Test.DataDapper\\obj\\",
+      "outputPath": "D:\\test\\net\\mySite\\Test.DataDapper\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

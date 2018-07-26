@@ -7,10 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Test.DataDapper\Test.DataDapper.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Sys\" />
+    <ProjectReference Include="..\Test.ViewModel\Test.ViewModel.csproj" />
   </ItemGroup>
 
 </Project>

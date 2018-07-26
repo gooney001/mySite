@@ -7,3 +7,12 @@ D:\test\mysite\mySite.git\Solution\Test.DataDapper\obj\Debug\netcoreapp2.1\Test.
 D:\test\mysite\mySite.git\Solution\Test.DataDapper\bin\Debug\netcoreapp2.1\Test.DataDapper.pdb
 D:\test\mysite\mySite.git\Solution\Test.DataDapper\obj\Debug\netcoreapp2.1\Test.DataDapper.dll
 D:\test\mysite\mySite.git\Solution\Test.DataDapper\obj\Debug\netcoreapp2.1\Test.DataDapper.pdb
+D:\test\net\mySite\Test.DataDapper\bin\Debug\netcoreapp2.1\Test.DataDapper.deps.json
+D:\test\net\mySite\Test.DataDapper\bin\Debug\netcoreapp2.1\Test.DataDapper.dll
+D:\test\net\mySite\Test.DataDapper\bin\Debug\netcoreapp2.1\Test.DataDapper.pdb
+D:\test\net\mySite\Test.DataDapper\obj\Debug\netcoreapp2.1\Test.DataDapper.csprojResolveAssemblyReference.cache
+D:\test\net\mySite\Test.DataDapper\obj\Debug\netcoreapp2.1\Test.DataDapper.csproj.CoreCompileInputs.cache
+D:\test\net\mySite\Test.DataDapper\obj\Debug\netcoreapp2.1\Test.DataDapper.AssemblyInfoInputs.cache
+D:\test\net\mySite\Test.DataDapper\obj\Debug\netcoreapp2.1\Test.DataDapper.AssemblyInfo.cs
+D:\test\net\mySite\Test.DataDapper\obj\Debug\netcoreapp2.1\Test.DataDapper.dll
+D:\test\net\mySite\Test.DataDapper\obj\Debug\netcoreapp2.1\Test.DataDapper.pdb

@@ -3420,11 +3420,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\test\\mysite\\mySite.git\\Solution\\Test.Data\\Test.Data.csproj",
+      "projectUniqueName": "D:\\test\\net\\mySite\\Test.Data\\Test.Data.csproj",
       "projectName": "Test.Data",
-      "projectPath": "D:\\test\\mysite\\mySite.git\\Solution\\Test.Data\\Test.Data.csproj",
+      "projectPath": "D:\\test\\net\\mySite\\Test.Data\\Test.Data.csproj",
       "packagesPath": "C:\\Users\\test\\.nuget\\packages\\",
-      "outputPath": "D:\\test\\mysite\\mySite.git\\Solution\\Test.Data\\obj\\",
+      "outputPath": "D:\\test\\net\\mySite\\Test.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

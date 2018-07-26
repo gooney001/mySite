@@ -555,6 +555,16 @@
         "runtime": {
           "bin/placeholder/Test.DataDapper.dll": {}
         }
+      },
+      "Test.ViewModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Test.ViewModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Test.ViewModel.dll": {}
+        }
       }
     }
   },
@@ -2011,12 +2021,18 @@
       "type": "project",
       "path": "../Test.DataDapper/Test.DataDapper.csproj",
       "msbuildProject": "../Test.DataDapper/Test.DataDapper.csproj"
+    },
+    "Test.ViewModel/1.0.0": {
+      "type": "project",
+      "path": "../Test.ViewModel/Test.ViewModel.csproj",
+      "msbuildProject": "../Test.ViewModel/Test.ViewModel.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.NETCore.App >= 2.1.0",
-      "Test.DataDapper >= 1.0.0"
+      "Test.DataDapper >= 1.0.0",
+      "Test.ViewModel >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2029,11 +2045,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\test\\mysite\\mySite.git\\Solution\\Test.Core\\Test.Core.csproj",
+      "projectUniqueName": "D:\\test\\net\\mySite\\Test.Core\\Test.Core.csproj",
       "projectName": "Test.Core",
-      "projectPath": "D:\\test\\mysite\\mySite.git\\Solution\\Test.Core\\Test.Core.csproj",
+      "projectPath": "D:\\test\\net\\mySite\\Test.Core\\Test.Core.csproj",
       "packagesPath": "C:\\Users\\test\\.nuget\\packages\\",
-      "outputPath": "D:\\test\\mysite\\mySite.git\\Solution\\Test.Core\\obj\\",
+      "outputPath": "D:\\test\\net\\mySite\\Test.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -2052,8 +2068,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\test\\mysite\\mySite.git\\Solution\\Test.DataDapper\\Test.DataDapper.csproj": {
-              "projectPath": "D:\\test\\mysite\\mySite.git\\Solution\\Test.DataDapper\\Test.DataDapper.csproj"
+            "D:\\test\\net\\mySite\\Test.DataDapper\\Test.DataDapper.csproj": {
+              "projectPath": "D:\\test\\net\\mySite\\Test.DataDapper\\Test.DataDapper.csproj"
+            },
+            "D:\\test\\net\\mySite\\Test.ViewModel\\Test.ViewModel.csproj": {
+              "projectPath": "D:\\test\\net\\mySite\\Test.ViewModel\\Test.ViewModel.csproj"
             }
           }
         }

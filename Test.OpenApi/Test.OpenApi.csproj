@@ -6,16 +6,44 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="wwwroot\AdminLTE-2.4.5\bower_components\font-awesome\css\font-awesome.min.css" />
+    <Content Include="wwwroot\AdminLTE-2.4.5\bower_components\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="wwwroot\AdminLTE-2.4.5\bower_components\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="wwwroot\AdminLTE-2.4.5\bower_components\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="wwwroot\AdminLTE-2.4.5\bower_components\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="wwwroot\AdminLTE-2.4.5\bower_components\Ionicons\css\ionicons.css" />
+    <Content Include="wwwroot\AdminLTE-2.4.5\bower_components\Ionicons\css\ionicons.min.css" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
     <PackageReference Include="Microsoft.AspNetCore" Version="1.1.2" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.3" />
     <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="1.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="1.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="1.1.1" />
     <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.2" />
     <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.1.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="1.1.1" />
   </ItemGroup>
 
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\AdminLTE-2.4.5\bower_components\font-awesome\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\AdminLTE-2.4.5\bower_components\font-awesome\fonts\fontawesome-webfont.woff2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Partial\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Test.ViewModel\Test.ViewModel.csproj" />
   </ItemGroup>
 
 </Project>

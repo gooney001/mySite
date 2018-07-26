@@ -5,7 +5,50 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="wwwroot\AdminLTE-2.4.5\bower_components\font-awesome\css\font-awesome.min.css" />
+    <Content Include="wwwroot\AdminLTE-2.4.5\bower_components\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="wwwroot\AdminLTE-2.4.5\bower_components\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="wwwroot\AdminLTE-2.4.5\bower_components\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="wwwroot\AdminLTE-2.4.5\bower_components\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="wwwroot\AdminLTE-2.4.5\bower_components\Ionicons\css\ionicons.css" />
+    <Content Include="wwwroot\AdminLTE-2.4.5\bower_components\Ionicons\css\ionicons.min.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\AdminLTE-2.4.5\bower_components\font-awesome\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\AdminLTE-2.4.5\bower_components\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\AdminLTE-2.4.5\bower_components\jquery\jquery.js" />
+    <None Include="wwwroot\AdminLTE-2.4.5\bower_components\jquery\jquery.min.js" />
+    <None Include="wwwroot\AdminLTE-2.4.5\bower_components\jquery\jquery.min.map" />
+    <None Include="wwwroot\AdminLTE-2.4.5\bower_components\jquery\jquery.slim.js" />
+    <None Include="wwwroot\AdminLTE-2.4.5\bower_components\jquery\jquery.slim.min.js" />
+    <None Include="wwwroot\AdminLTE-2.4.5\bower_components\jquery\jquery.slim.min.map" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Net.Compilers" Version="2.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Test.Core\Test.Core.csproj" />
+    <ProjectReference Include="..\Test.ViewModel\Test.ViewModel.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Views\Partial\LeftMenu.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Views\Shared\_LeftMenu.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Views\Shared\_Main.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Views\Test\Index.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
   </ItemGroup>
 
 </Project>
