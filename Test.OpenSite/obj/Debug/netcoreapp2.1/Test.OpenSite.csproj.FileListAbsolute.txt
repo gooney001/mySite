@@ -41,3 +41,7 @@ D:\test\net\mySite\Test.OpenSite\bin\Debug\netcoreapp2.1\Test.DataDapper.dll
 D:\test\net\mySite\Test.OpenSite\bin\Debug\netcoreapp2.1\Test.Core.pdb
 D:\test\net\mySite\Test.OpenSite\bin\Debug\netcoreapp2.1\Test.DataDapper.pdb
 D:\test\net\mySite\Test.OpenSite\obj\Debug\netcoreapp2.1\Razor\Views\Login\Index.g.cshtml.cs
+D:\test\net\mySite\Test.OpenSite\bin\Debug\netcoreapp2.1\Test.Utils.dll
+D:\test\net\mySite\Test.OpenSite\bin\Debug\netcoreapp2.1\Test.Utils.pdb
+D:\test\net\mySite\Test.OpenSite\bin\Debug\netcoreapp2.1\config.json
+D:\test\net\mySite\Test.OpenSite\bin\Debug\netcoreapp2.1\log4net.config

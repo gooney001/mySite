@@ -7,3 +7,12 @@ D:\test\mysite\mySite.git\Solution\Test.Data\obj\Debug\netcoreapp2.1\Test.Data.A
 D:\test\mysite\mySite.git\Solution\Test.Data\bin\Debug\netcoreapp2.1\Test.Data.pdb
 D:\test\mysite\mySite.git\Solution\Test.Data\obj\Debug\netcoreapp2.1\Test.Data.dll
 D:\test\mysite\mySite.git\Solution\Test.Data\obj\Debug\netcoreapp2.1\Test.Data.pdb
+D:\test\net\mySite\Test.Data\bin\Debug\netcoreapp2.1\Test.Data.deps.json
+D:\test\net\mySite\Test.Data\bin\Debug\netcoreapp2.1\Test.Data.dll
+D:\test\net\mySite\Test.Data\bin\Debug\netcoreapp2.1\Test.Data.pdb
+D:\test\net\mySite\Test.Data\obj\Debug\netcoreapp2.1\Test.Data.csprojResolveAssemblyReference.cache
+D:\test\net\mySite\Test.Data\obj\Debug\netcoreapp2.1\Test.Data.csproj.CoreCompileInputs.cache
+D:\test\net\mySite\Test.Data\obj\Debug\netcoreapp2.1\Test.Data.AssemblyInfoInputs.cache
+D:\test\net\mySite\Test.Data\obj\Debug\netcoreapp2.1\Test.Data.AssemblyInfo.cs
+D:\test\net\mySite\Test.Data\obj\Debug\netcoreapp2.1\Test.Data.dll
+D:\test\net\mySite\Test.Data\obj\Debug\netcoreapp2.1\Test.Data.pdb

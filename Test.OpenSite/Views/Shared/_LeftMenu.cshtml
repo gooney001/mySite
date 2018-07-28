@@ -1,50 +1,46 @@
 ﻿@using Test.Core.Sys;
 @using Microsoft.AspNetCore.Http;
-<ul class="sidebar-menu" data-widget="tree" v-cloak id="leftMenu">
+<ul class="sidebar-menu" data-widget="tree">
     <li class="header">MAIN NAVIGATION</li>
 
-    <li class="active treeview">
-        <a href="#">
-            <i class="fa fa-pie-chart"></i>
-            <span>{{itemGroup}}</span>
-            <span class="pull-right-container">
-                <i class="fa fa-angle-left pull-right"></i>
-            </span>
-        </a>
-        @{ 
-            var menuBll = new MenuManager();
-            var userId=Context.Session.GetString("userInfo");
-            var menuDatas=menuBll.GetMenu(new Test.ViewModel.QueryMenuView {
+    @{
+        var user = Test.OpenSite.Utils.GetCurrentInfo.Instance.UserInfo();
+        var menuBll = new MenuManager();
+        var menuDatas = menuBll.GetMenu(new Test.ViewModel.QueryMenuView
+        {
+            UserId = user.UserId
+        });
+        if (menuDatas != null && menuDatas.Count() > 0)
+        {
+            foreach (var menu in menuDatas)
+            {
 
-            });
-        }
-        <ul class="treeview-menu">
-            <li v-for="item in items"><a href="item.url"><i class="fa fa-circle-o"></i>{{item.name}}</a></li>
-        </ul>
-    </li>
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-pie-chart"></i>
+                        <span>@menu.Name</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                    </a>
+
+                    <ul class="treeview-menu">
+                        @{
+                            if (menu.Items != null && menu.Items.Count() > 0)
+                            {
+                                foreach (var item in menu.Items)
+                                {
+                                    <li><a href="@item.Url"><i class="fa fa-circle-o"></i>@item.Name</a></li>
+                                }
+                            }
+                        }
+                    </ul>
+                </li>
+                                }
+                            }
+    }
     <li class="header">LABELS</li>
     <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Important</span></a></li>
     <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Warning</span></a></li>
     <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> <span>Information</span></a></li>
 </ul>
-<script src="~/js/vue.js"></script>
-<script src="~/js/jquery-3.3.1.min.js"></script>
-<script type="text/javascript">
-    new Vue({
-        el: "#leftMenu",
-        data: {
-            items: [],
-            itemGroup:'菜单'
-        },
-        created: function () { 
-            $.ajax({
-                url: "/Partial/GetMenu",
-                dataType: "json",
-                method: "get",
-                success: function (res) { 
-                    items=res
-                }
-            })
-        }
-    })
-</script>

@@ -1,14 +1,22 @@
 ﻿using Dapper;
 using MySql.Data.MySqlClient;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Threading.Tasks;
+using Test.Utils;
+using Test.Utils.Log;
 
 namespace Test.DataDapper
 {
     public class DapperMySQLHelp
     {
+        private readonly static string dapperConnectionString = string.Empty;
+        static DapperMySQLHelp()
+        {
+            dapperConnectionString = ConfigHelper.Instance.GetConnectionString();
+        }
         #region +ExcuteNonQuery 增、删、改同步操作
         /// <summary>
         /// 增、删、改同步操作
@@ -130,6 +138,10 @@ namespace Test.DataDapper
         #endregion
 
         #region +FindOne  同步查询一条数据
+        public T FindOne<T>(string cmd, DynamicParameters param, bool flag = false) where T : class, new()
+        {
+            return FindOne<T>(dapperConnectionString, cmd, param, flag);
+        }
         /// <summary>
         /// 同步查询一条数据
         /// 作者： 逍遥帝君
@@ -146,28 +158,36 @@ namespace Test.DataDapper
             IDataReader dataReader = null;
             using (MySqlConnection con = new MySqlConnection(connection))
             {
-                if (flag)
-                {
-                    dataReader = con.ExecuteReader(cmd, param, null, null, CommandType.StoredProcedure);
-                }
-                else
-                {
-                    dataReader = con.ExecuteReader(cmd, param, null, null, CommandType.Text);
-                }
-                if (dataReader == null || !dataReader.Read()) return null;
                 Type type = typeof(T);
                 T t = new T();
-                foreach (var item in type.GetProperties())
+                try
                 {
-                    for (int i = 0; i < dataReader.FieldCount; i++)
+                    if (flag)
                     {
-                        //属性名与查询出来的列名比较
-                        if (item.Name.ToLower() != dataReader.GetName(i).ToLower()) continue;
-                        var kvalue = dataReader[item.Name];
-                        if (kvalue == DBNull.Value) continue;
-                        item.SetValue(t, kvalue, null);
-                        break;
+                        dataReader = con.ExecuteReader(cmd, param, null, null, CommandType.StoredProcedure);
                     }
+                    else
+                    {
+                        dataReader = con.ExecuteReader(cmd, param, null, null, CommandType.Text);
+                    }
+                    if (dataReader == null || !dataReader.Read()) return null;
+                    
+                    foreach (var item in type.GetProperties())
+                    {
+                        for (int i = 0; i < dataReader.FieldCount; i++)
+                        {
+                            //属性名与查询出来的列名比较
+                            if (item.Name.ToLower() != dataReader.GetName(i).ToLower()) continue;
+                            var kvalue = dataReader[item.Name];
+                            if (kvalue == DBNull.Value) continue;
+                            item.SetValue(t, kvalue, null);
+                            break;
+                        }
+                    }
+                }
+                catch(Exception ex)
+                {
+                    Logger.Instance.Write(cmd,JsonConvert.SerializeObject(t), ex);
                 }
                 return t;
             }
@@ -220,6 +240,10 @@ namespace Test.DataDapper
         #endregion
 
         #region +FindToList  同步查询数据集合
+        public IList<T> FindToList<T>(string cmd, DynamicParameters param) where T : class, new()
+        {
+            return FindToList<T>(dapperConnectionString,cmd,param,false);
+        }
         /// <summary>
         /// 同步查询数据集合
         /// 作者： 逍遥帝君
@@ -470,3 +494,29 @@ namespace Test.DataDapper
         #endregion
     }
 }
+//存储过程
+//CREATE PROCEDURE page_getperson
+//（
+//  _pageIndex INT,
+//  _pageSize INT,
+//  out _pagecount int
+//）
+//BEGIN
+
+//DECLARE startIndex int DEFAULT 0;
+//DECLARE tcount int DEFAULT 0;
+//set startIndex = (_pageIndex - 1) * _pageSize;
+//SELECT* from Person LIMIT startIndex,_pageSize;
+//SELECT COUNT(id) into tcount from Person;
+//set _pagecount = tcount;
+
+//END
+//参数写法
+//DynamicParameters param = new DynamicParameters();
+//param.Add("_pageIndex", 2);
+//  param.Add("_pageSize", 5);
+//  param.Add("_pagecount", dbType: DbType.Int32, direction: ParameterDirection.Output);
+//  var result = mysql.FindToListByPage<Person>(connection, "page_getperson", param);
+////总条数
+//var count = param.Get<int>("_pagecount");
+//var kk = result;

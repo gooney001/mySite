@@ -1,9 +1,9 @@
 D:\test\net\mySite\Test.ViewModel\bin\Debug\netcoreapp2.1\Test.ViewModel.deps.json
 D:\test\net\mySite\Test.ViewModel\bin\Debug\netcoreapp2.1\Test.ViewModel.dll
 D:\test\net\mySite\Test.ViewModel\bin\Debug\netcoreapp2.1\Test.ViewModel.pdb
-D:\test\net\mySite\Test.ViewModel\obj\Debug\netcoreapp2.1\Test.ViewModel.csprojResolveAssemblyReference.cache
 D:\test\net\mySite\Test.ViewModel\obj\Debug\netcoreapp2.1\Test.ViewModel.csproj.CoreCompileInputs.cache
 D:\test\net\mySite\Test.ViewModel\obj\Debug\netcoreapp2.1\Test.ViewModel.AssemblyInfoInputs.cache
 D:\test\net\mySite\Test.ViewModel\obj\Debug\netcoreapp2.1\Test.ViewModel.AssemblyInfo.cs
 D:\test\net\mySite\Test.ViewModel\obj\Debug\netcoreapp2.1\Test.ViewModel.dll
 D:\test\net\mySite\Test.ViewModel\obj\Debug\netcoreapp2.1\Test.ViewModel.pdb
+D:\test\net\mySite\Test.ViewModel\obj\Debug\netcoreapp2.1\Test.ViewModel.csprojResolveAssemblyReference.cache

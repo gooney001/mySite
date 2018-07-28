@@ -1,0 +1,5 @@
+﻿{
+  "ConnectionStrings": {
+    "conn": "Server=127.0.0.1;port=3306;database=sysdb;uid=root;pwd=123456;"
+  }
+}

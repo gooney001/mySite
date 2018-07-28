@@ -1,0 +1,16 @@
+{
+  "ConnectionStrings": {
+    "conn": "Server=localhost;port=3308;database=qdezge;uid=root;pwd=123456;"
+  },
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es5"
+  },
+  "exclude": [
+    "node_modules",
+    "wwwroot"
+  ]
+}

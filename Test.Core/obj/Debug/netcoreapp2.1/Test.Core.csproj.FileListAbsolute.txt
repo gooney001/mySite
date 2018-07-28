@@ -11,3 +11,9 @@ D:\test\net\mySite\Test.Core\obj\Debug\netcoreapp2.1\Test.Core.AssemblyInfoInput
 D:\test\net\mySite\Test.Core\obj\Debug\netcoreapp2.1\Test.Core.AssemblyInfo.cs
 D:\test\net\mySite\Test.Core\obj\Debug\netcoreapp2.1\Test.Core.dll
 D:\test\net\mySite\Test.Core\obj\Debug\netcoreapp2.1\Test.Core.pdb
+D:\test\net\mySite\Test.Core\bin\Debug\netcoreapp2.1\Test.Utils.dll
+D:\test\net\mySite\Test.Core\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Configuration.Json.dll
+D:\test\net\mySite\Test.Core\bin\Debug\netcoreapp2.1\Test.Utils.pdb
+D:\test\net\mySite\Test.Core\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Configuration.Json.xml
+D:\test\net\mySite\Test.Core\bin\Debug\netcoreapp2.1\Newtonsoft.Json.dll
+D:\test\net\mySite\Test.Core\bin\Debug\netcoreapp2.1\Newtonsoft.Json.xml

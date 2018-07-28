@@ -1,0 +1,13 @@
+D:\test\net\mySite\Test.Utils\bin\Debug\netcoreapp2.1\Test.Utils.deps.json
+D:\test\net\mySite\Test.Utils\bin\Debug\netcoreapp2.1\Test.Utils.dll
+D:\test\net\mySite\Test.Utils\obj\Debug\netcoreapp2.1\Test.Utils.csproj.CoreCompileInputs.cache
+D:\test\net\mySite\Test.Utils\obj\Debug\netcoreapp2.1\Test.Utils.AssemblyInfoInputs.cache
+D:\test\net\mySite\Test.Utils\obj\Debug\netcoreapp2.1\Test.Utils.AssemblyInfo.cs
+D:\test\net\mySite\Test.Utils\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Configuration.Json.dll
+D:\test\net\mySite\Test.Utils\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Configuration.Json.xml
+D:\test\net\mySite\Test.Utils\obj\Debug\netcoreapp2.1\Test.Utils.csprojResolveAssemblyReference.cache
+D:\test\net\mySite\Test.Utils\bin\Debug\netcoreapp2.1\Test.Utils.pdb
+D:\test\net\mySite\Test.Utils\obj\Debug\netcoreapp2.1\Test.Utils.dll
+D:\test\net\mySite\Test.Utils\obj\Debug\netcoreapp2.1\Test.Utils.pdb
+D:\test\net\mySite\Test.Utils\bin\Debug\netcoreapp2.1\Newtonsoft.Json.dll
+D:\test\net\mySite\Test.Utils\bin\Debug\netcoreapp2.1\Newtonsoft.Json.xml

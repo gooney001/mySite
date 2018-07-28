@@ -28,15 +28,23 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.1.1" />
     <PackageReference Include="Microsoft.Net.Compilers" Version="2.8.2" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Test.Core\Test.Core.csproj" />
+    <ProjectReference Include="..\Test.Utils\Test.Utils.csproj" />
     <ProjectReference Include="..\Test.ViewModel\Test.ViewModel.csproj" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Update="config.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="log4net.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Update="Views\Partial\LeftMenu.cshtml">
       <Pack>$(IncludeRazorContentInPack)</Pack>
     </Content>

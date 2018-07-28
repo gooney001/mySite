@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Test.ViewModel
 {
@@ -7,9 +8,16 @@ namespace Test.ViewModel
         public string Name { get; set; }
         public string Icon { get; set; }
         public string Url { get; set; }
+        public List<MenuItemView> Items { get; set; }
+    }
+    public class MenuItemView
+    {
+        public string Name { get; set; }
+        public string Icon { get; set; }
+        public string Url { get; set; }
     }
     public class QueryMenuView
     {
-        public string UserId { get; set; }
+        public int UserId { get; set; }
     }
 }

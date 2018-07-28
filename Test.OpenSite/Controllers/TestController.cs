@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Test.OpenSite.Controllers
 {
-    public class TestController:Controller
+    public class TestController:BaseController
     {
         public IActionResult Index()
         {

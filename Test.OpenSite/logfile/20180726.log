@@ -1,0 +1,22 @@
+2018-07-26 17:45:25,447 [9] INFO  NETCorelog4net [(null)] - 
+RQ:SELECT
+  `Id`,
+  `UserName`,
+  `Password`,
+  `RealName`,
+  `Email`,
+  `Mobile`,
+  `Remark`,
+  `CreaterId`,
+  `CreateTime`,
+  `UpdaterId`,
+  `UpdateTime`,
+  `LastLoginTime`,
+  `LoginTimes`,
+  `DepartmentId`,
+  `IsDeleted`
+FROM
+  `sysdb`.`sys_user` U AND U.UserName=@UserName
+RS:{"Id":0,"UserName":null,"Password":null,"RealName":null,"Email":null,"Mobile":null,"Remark":null,"LastLoginTime":"0001-01-01T00:00:00","LoginTimes":0,"DepartmentId":0}
+ERROR:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND U.UserName='117@qq.com'' at line 18
+

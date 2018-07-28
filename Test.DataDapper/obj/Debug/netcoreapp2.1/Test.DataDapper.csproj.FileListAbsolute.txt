@@ -16,3 +16,11 @@ D:\test\net\mySite\Test.DataDapper\obj\Debug\netcoreapp2.1\Test.DataDapper.Assem
 D:\test\net\mySite\Test.DataDapper\obj\Debug\netcoreapp2.1\Test.DataDapper.AssemblyInfo.cs
 D:\test\net\mySite\Test.DataDapper\obj\Debug\netcoreapp2.1\Test.DataDapper.dll
 D:\test\net\mySite\Test.DataDapper\obj\Debug\netcoreapp2.1\Test.DataDapper.pdb
+D:\test\net\mySite\Test.DataDapper\bin\Debug\netcoreapp2.1\Test.ViewModel.dll
+D:\test\net\mySite\Test.DataDapper\bin\Debug\netcoreapp2.1\Test.ViewModel.pdb
+D:\test\net\mySite\Test.DataDapper\bin\Debug\netcoreapp2.1\Test.Utils.dll
+D:\test\net\mySite\Test.DataDapper\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Configuration.Json.dll
+D:\test\net\mySite\Test.DataDapper\bin\Debug\netcoreapp2.1\Test.Utils.pdb
+D:\test\net\mySite\Test.DataDapper\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Configuration.Json.xml
+D:\test\net\mySite\Test.DataDapper\bin\Debug\netcoreapp2.1\Newtonsoft.Json.dll
+D:\test\net\mySite\Test.DataDapper\bin\Debug\netcoreapp2.1\Newtonsoft.Json.xml
